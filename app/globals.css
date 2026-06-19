@@ -286,7 +286,7 @@ a {
 .hero {
   position: relative;
   min-height: 100vh;
-  padding-top: 60px;
+  padding-top: 120px;
   overflow: hidden;
 }
 
@@ -852,6 +852,7 @@ a {
 }
 
 @media (max-width: 760px) {
+
   .container {
     width: min(100% - 28px, var(--container));
   }
@@ -895,7 +896,7 @@ a {
 
   .hero {
     min-height: auto;
-    padding-top: 130px;
+    padding-top: 100px;
   }
 
   .hero h1,
