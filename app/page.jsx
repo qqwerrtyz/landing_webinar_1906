@@ -91,7 +91,7 @@ export default function Home() {
             <img src="/landing/speaker.jpg" alt="Родитель и ребенок на консультации" />
             <div className="hero__note">
               <span>Эфир поможет понять первые шаги</span>
-              <b>без давления и запугивания</b>
+              <b>Что делать и куда двигаться</b>
             </div>
           </div>
         </div>
