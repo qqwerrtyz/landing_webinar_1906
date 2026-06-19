@@ -255,7 +255,7 @@ export default function Home() {
       <footer className="footer">
         <div className="container footer__inner">
           <p>© Новая Планета. Посадочная страница вебинара.</p>
-          <a href="https://novaya-planeta.ru/privacy-policy/">Политика конфиденци</a>
+          <a href="https://novaya-planeta.ru/privacy-policy/">Политика конфиденциальности</a>
           <a href="#top">Вернуться наверх</a>
         </div>
       </footer>
