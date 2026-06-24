@@ -350,7 +350,7 @@ export default function Home() {
           <div className="hero__content">
             <div className="eyebrow">Бесплатный онлайн-вебинар для родителей</div>
             <div className="anonseDateWrapper">
-              <span className="anonseDate">25 июня в 18:00</span>
+              <span className="anonseDate">25 июня в  по МСК</span>
             </div>
             <h1>
               Как выбрать ABA-специалиста и не упустить время? Как привлечь помощь благотворительного фонда?
@@ -427,7 +427,7 @@ export default function Home() {
       <section id="program" className="section-pad section-muted">
         <div className="container">
           <div className="section-heading">
-            <span>Программа вебинара на 25 июня в 18:00</span>
+            <span>Программа вебинара на 25 июня в 18:00 по МСК</span>
             <h2>Три темы, которые чаще всего волнуют родителей</h2>
             <p>
               Мы собрали вебинар вокруг практических вопросов: как не ошибиться со специалистом,
