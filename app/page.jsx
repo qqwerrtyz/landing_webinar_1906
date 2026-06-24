@@ -350,7 +350,7 @@ export default function Home() {
           <div className="hero__content">
             <div className="eyebrow">Бесплатный онлайн-вебинар для родителей</div>
             <div className="anonseDateWrapper">
-              <span className="anonseDate">25 июня в  по МСК</span>
+              <span className="anonseDate">25 июня в  по 18:00 МСК</span>
             </div>
             <h1>
               Как выбрать ABA-специалиста и не упустить время? Как привлечь помощь благотворительного фонда?
