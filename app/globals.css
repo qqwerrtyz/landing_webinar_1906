@@ -475,6 +475,10 @@ a {
   margin: 0 auto;
 }
 
+.speaker__card-top {
+  margin-bottom: 20px;
+}
+
 .section-heading h2,
 .split-section h2,
 .funds h2,
@@ -805,6 +809,22 @@ a {
 .footer a {
   color: #fff;
   font-weight: 800;
+}
+
+.anonseDateWrapper {
+
+  margin-top: 20px;
+}
+
+.anonseDate {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+
+  padding: 8px 16px;
+  border-radius: 20px;
+
+  background-color: #af4b46;
 }
 
 @media (max-width: 1080px) {

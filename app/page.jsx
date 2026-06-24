@@ -349,6 +349,9 @@ export default function Home() {
         <div className="container hero__grid">
           <div className="hero__content">
             <div className="eyebrow">Бесплатный онлайн-вебинар для родителей</div>
+            <div className="anonseDateWrapper">
+              <span className="anonseDate">25 июня в 18:00</span>
+            </div>
             <h1>
               Как выбрать ABA-специалиста и не упустить время? Как привлечь помощь благотворительного фонда?
             </h1>
@@ -393,7 +396,7 @@ export default function Home() {
       </section>
 
             <section className="speaker section-pad">
-        <div className="container speaker__card">
+        <div className="container speaker__card speaker__card-top">
           <div className="speaker__avatar">
             <img src="/landing/speakerName.png" alt="Спикер вебинара" />
           </div>
@@ -401,7 +404,20 @@ export default function Home() {
             <span className="section-kicker">Ведущий вебинара</span>
             <h2>Светлана Рашитовна Закирова</h2>
             <p>
-              исполнительный директор ABA-центра «Новая Планета»  магистр психологии, практикующий психолог и сертифицированный поведенческий аналитик
+              Исполнительный директор ABA-центра «Новая Планета»  магистр психологии, практикующий психолог и сертифицированный поведенческий аналитик
+            </p>
+          </div>
+        </div>
+
+        <div className="container speaker__card">
+          <div className="speaker__avatar">
+            <img src="/landing/speakerName2.png" alt="Спикер вебинара" />
+          </div>
+          <div>
+            <span className="section-kicker">Ведущий вебинара</span>
+            <h2>Эрнест Игоревич Бронников</h2>
+            <p>
+              Помощник исполнительного директора ABA‑центра «Новая Планета», специалист по работе с благотворительными фондами
             </p>
           </div>
         </div>
@@ -411,7 +427,7 @@ export default function Home() {
       <section id="program" className="section-pad section-muted">
         <div className="container">
           <div className="section-heading">
-            <span>Программа вебинара</span>
+            <span>Программа вебинара на 25 июня в 18:00</span>
             <h2>Три темы, которые чаще всего волнуют родителей</h2>
             <p>
               Мы собрали вебинар вокруг практических вопросов: как не ошибиться со специалистом,
@@ -541,7 +557,7 @@ export default function Home() {
             </p>
             <div className="registration__highlight">
               <b>Секретный бонус</b>
-              <span>будет открыт только тем, кто придет в прямой эфир</span>
+              <span>будет открыт только тем, кто придет на вебинар</span>
             </div>
           </div>
           <GetCourseWidget />
