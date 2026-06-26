@@ -8,7 +8,7 @@ const navItems = [
   { href: "#for-whom", label: "Кому подойдет" },
   { href: "#funds", label: "Фонды" },
   { href: "#bonuses", label: "Бонусы" },
-  { href: "#registration", label: "Регистрация" },
+  { href: "#registration", label: "Запись вебинара" },
 ];
 
 export default function Header() {
@@ -36,7 +36,7 @@ export default function Header() {
       </nav>
 
       <a className="header-cta" href="#registration">
-        Записаться
+        К записи вебинара
       </a>
 
       <button
@@ -60,7 +60,7 @@ export default function Header() {
             </a>
           ))}
           <a className="mobile-menu__cta" href="#registration" onClick={closeMenu}>
-            Зарегистрироваться
+            Запись вебинара
           </a>
         </div>
       </div>
